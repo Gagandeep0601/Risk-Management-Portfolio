@@ -1,39 +1,31 @@
 # Banking Risk Analytics
 
-An end-to-end banking analytics project built using **Azure Data Factory, Azure SQL Database, and Power BI** to automate data integration, perform data transformation, and deliver interactive dashboards for banking risk analysis.
-
 ## Project Overview
 
-This project focuses on transforming raw banking data into meaningful business insights to support loan risk management, client analysis, and faster decision-making.
+An end-to-end banking analytics solution built using Azure Data Factory, Azure SQL Database, and Power BI.
 
-### Technologies Used
+## Project Workflow
 
-* Azure Data Factory (ADF)
-* Azure SQL Database
-* Power BI
-* SQL Server / SSMS
-* Azure Blob Storage
-* DAX
+![Banking Risk Analytics Workflow](Banking_Risk_Analytics_Animated_Workflow.gif)
 
-### Key Features
+## Technologies Used
 
-* Automated ETL pipelines using Azure Data Factory.
-* Full load and incremental data loading.
-* Data cleaning, validation, and transformation.
-* Handling missing values and duplicate records.
-* Business logic and derived columns.
-* Centralized data storage in Azure SQL Database.
-* Interactive Power BI dashboards for Loans, Deposits, and Clients.
-* Snowflake schema data modeling and DAX measures.
-* Scheduled pipeline execution and secure data access using RBAC.
+- Azure Data Factory
+- Azure SQL Database
+- Power BI
+- SQL Server / SSMS
+- Azure Blob Storage
+- DAX
 
-### ETL Workflow
+## ETL Process
 
-Azure Blob Storage / SQL Server → Azure Data Factory → Azure SQL Database → Power BI
+Azure Blob Storage → Azure Data Factory
+→ Azure SQL Database → Power BI
 
-### Business Value
+## Key Features
 
-* Improved data quality and consistency.
-* Reduced manual reporting effort.
-* Better visibility into high-risk loans.
-* Faster and more informed banking decisions.
+- Full and incremental data load
+- Data cleaning and transformation
+- Business logic and derived columns
+- Interactive Power BI dashboards
+- Loan, Deposit, and Client analysis
